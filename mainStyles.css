@@ -1,0 +1,66 @@
+body {
+  margin:0;
+  background-image: url('Cubico Red_Plum.jpg');
+  background-repeat: no-repeat;
+  background-size: 220vh;
+  background-color: #B38B84;
+  color: white;
+  display: inline;
+  font-family: Gill Sans, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+.rightScreen {
+  width: 50%;
+  height: 100vh;
+  float: right;
+  background-color: #B38B84;
+}
+ .leftScreen {
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+.mainMenu {
+  float: right;
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+#profileScreen {
+  top: 80px;
+  right: 28px;
+}
+.menuBar {
+  margin: auto;
+  width: 300px;
+  position: relative;
+  top: 150px;
+}
+button {
+  text-align: center;
+  padding: 12px ;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  color: white;
+  font-family: Gill Sans, sans-serif;
+  font-weight: lighter;
+  background-color: #9E706C;
+  border: #9E706C;
+  border-radius: 5px;
+  position:relative;
+  display: block;
+}
+.menuBar button{
+  width:300px;
+  margin: 10px;
+}
+button:hover{
+  color: #000;
+}
+.footer {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  bottom: 0px;
+}

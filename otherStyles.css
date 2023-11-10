@@ -1,0 +1,90 @@
+body {
+  margin:0;
+  background-color: #B38B84;
+  background-image: url("Cubico Red_Plum.jpg");
+  background-repeat: no-repeat;
+  background-size: 220vh;
+  color: white;
+  display: inline;
+  font-family: Gill Sans, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+.mainMenu {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+}
+button {
+  text-align: center;
+  padding: 12px ;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  color: white;
+  font-family: Gill Sans, sans-serif;
+  font-weight: lighter;
+  background-color: #9E706C;
+  border: #9E706C;
+  border-radius: 5px;
+  display: block;
+  width:100px;
+}
+button:hover{
+  color: #000;
+}
+.contentContactForm {
+  width: fit-content;
+  position: relative;
+  height: 60vh;
+  padding: 20px;
+  left: 62vh;
+}
+.contentBackground {
+  background-color: #B38B84;
+  position: relative;
+  padding: 20px;
+}
+#contentAboutMe {
+  position: relative;
+}
+.texts {
+  padding: 15px;
+}
+.textAboutMe {
+  position: relative;
+  width: 800px;
+  padding: 20px;
+  left: 40vh;
+  background-color: #B38B84;
+}
+.portfolio {
+  background-color: #B38B84;
+  position: relative;
+  height: 130vh;
+  padding: 20px;
+  width: auto;
+  margin: 0px 50px;
+}
+.musicPlayer {
+  position: relative;
+  left: 0%;
+  width: 50%;
+  top: 0px;
+}
+.navProjects {
+  position: absolute;
+  right: 0%;
+  width: 50%;
+  top: 21px;
+}
+.demeterBoots {
+  position: absolute;
+  left: -24%;
+  width: 100%;
+  bottom: -80px;
+}
+.demeterBootstext {
+  position: relative;
+  left: 50%;
+  bottom: 190px;
+}
